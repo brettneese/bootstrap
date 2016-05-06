@@ -1,0 +1,36 @@
+{
+  "name": "project-name",
+  "version": "0.0.0",
+  "description": "An example module to illustrate the usage of a package.json",
+  "author": "Your Name <you.name@example.org>",
+  "license": "unlicensed",
+  "private": true,
+  "scripts": {
+    "start": "tsc app.ts; node start ./.dist/app.js",
+    "predeploy": "echo i'm about to deploy",
+    "postdeploy": "echo i've deployed",
+    "prepublish": "echo i'm about to publish",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "main": "app/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/browsenpm.org"
+  },
+  "bugs": {
+    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+  },
+  "keywords": [
+    "nodejitsu",
+    "example",
+    "browsenpm"
+  ],
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "lodash": "^4.11.2",
+    "winston": "^2.2.0"
+  }
+}
