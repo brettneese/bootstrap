@@ -55,4 +55,4 @@ jspm_packages
 typings
 app.js
 app.js.map
-#.vscode
+.vscode
