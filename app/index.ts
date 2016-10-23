@@ -1,4 +1,3 @@
-/// <reference path='../typings/main.d.ts' />
 'use strict'
 
 /**
@@ -9,10 +8,10 @@ require('dotenv').config({silent: true, path: '../.secrets'})
 /**
  * Configure credentials for Dynasty
  */
-var credentials = {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
-}
+// var credentials = {
+//     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+//     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+// }
 
 /**
  * Setting up Modules
